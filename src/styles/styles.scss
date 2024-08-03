@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  font-family: $font-stack;
+  background-color: $background-color;
+}
+
+h1 {
+  color: $primary-color;
+  text-align: $text-center;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+p {
+  text-align: $text-center;
+  font-size: 1.2rem;
+  color: $primary-color;
+}
+
+img {
+  @include center-block;
+  width: 150px;
+  margin-top: 20px;
+}
